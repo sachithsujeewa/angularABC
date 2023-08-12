@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Sample';
+  to: number = 0;
+  sampleMesseage = "Bandarawela"
+
+  handleTotal(to:number) {
+    this.to = to * 2;
+  }
 }
